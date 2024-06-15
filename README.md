@@ -26,10 +26,9 @@ linuxefi /images/pxeboot/vmlinuz inst.stage2=hd:LABEL=Fedora-S-dvd-x86_64-40 qui
 >[!NOTE]
 >This only works with the server edition of Fedora, not workstation.
 
-## Extra
+## Notes
 >[!TIP]
->If you use UEFI and leave the usb in, you can when time comes use efibootmgr to set next boot from that usb<br>
->to initiate the re-install remotely.
+>If you use UEFI and leave the usb in, you can when time comes use efibootmgr to set next boot from that usb to initiate the re-install remotely.
 >
 >```
 >sudo efibootmgr (to find device numbers)
