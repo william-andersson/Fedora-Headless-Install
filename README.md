@@ -1,8 +1,7 @@
 # Fedora Linux Remote Headless Install (the easy way!)
 
 ## Intro
-I have previously been using openSuse for my headless server and when time comes for installation they<br>
-provide a fairly simple way to use ssh/vnc for the installer by using 'mksusecd' to modify the boot options.<br>
+I have previously been using openSuse for my headless server and when time comes for installation they provide a fairly simple way to use ssh/vnc for the installer by using 'mksusecd' to modify the boot options.
 
 ```
 SSH
