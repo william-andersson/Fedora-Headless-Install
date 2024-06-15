@@ -23,9 +23,10 @@ It turns out that Fedora-Media-Writer creates a second partition on the usb name
 linuxefi /images/pxeboot/vmlinuz inst.stage2=hd:LABEL=Fedora-S-dvd-x86_64-40 quiet inst.vnc
 ```
 
->[NOTE]
+>[!NOTE]
 >This only works with the server edition of Fedora, not workstation.
 
+## Extra
 >[!TIP]
 >If you use UEFI and leave the usb in, you can when time comes use efibootmgr to set next boot from that usb<br>
 >to initiate the re-install remotely.
