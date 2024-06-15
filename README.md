@@ -20,7 +20,7 @@ maybe more so than the openSuse approach.
 It turns out that Fedora-Media-Writer creates a second partition on the usb named Anaconda wich contains a EFI directory with a BOOT directory inside that holds a grub.cfg you can modify. Adding 'inst.vnc' to the end of the boot parameters enables you to boot the installer with vnc support! You can also change default boot option and timeout.
 
 ```
-linuxefi /images/pxeboot/vmlinuz inst.stage2=hd:LABEL=Fedora-S-dvd-x86_64-40 quiet inst.vnc
+Add inst.vnc to the end of the linuxefi line in grub.cfg
 ```
 
 >[!NOTE]
